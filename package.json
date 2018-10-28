@@ -1,7 +1,7 @@
 {
     "name": "a03",
     "version": "0.0.1",
-    "description": "resume app",
+    "description": "pesonal App",
     "main": "app.js",
     "dependencies": {
         "body-parser": "latest",
