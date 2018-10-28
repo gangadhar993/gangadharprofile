@@ -1,0 +1,58 @@
+<% include header %>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.6.2.css">
+  <link rel="stylesheet" href="css/gangadhar.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #006747;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">About Me</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="/index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/tic-tac-toe">Tic-Tac</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link active" href="/testunit">Qunit<span class="sr-only">(current)</a>
+           </li>
+          </ul>
+        </div>
+      </nav>
+  <!-- the qunit div displays testing results -->
+  <div id="qunit"></div>
+  <!-- the qunit-fixture div is for tests affecting the DOM -->
+  <div id="qunit-fixture">
+    <button id="btnLaunch" class="btn btn-lg btn-danger">Click me</button> <br /> <br />
+    <button class="btn btn-lg btn-primary" id="btnExploreHtml">Explore the HTML</button>
+    <button class="btn btn-lg btn-primary" id="btnExploreCode">Explore the Code</button>
+
+  </div>
+  <main class="main_section">
+    <div class="section" id="upper-left"></div>
+    <div class="section" id="upper-mid"> </div>
+    <div class="section" id="upper-right"> </div>
+
+    <div class="section" id="center-left"> </div>
+    <div class="section" id="center-mid"> </div>
+    <div class="section" id="center-right"> </div>
+
+    <div class="section" id="lower-left"> </div>
+    <div class="section" id="lower-mid"> </div>
+    <div class="section" id="lower-right"> </div>
+  </main>
+  <br>
+  <p>Reminder: Include all dependencies in the html file (in order). </p>
+  <script src="https://code.jquery.com/qunit/qunit-2.6.2.js" integrity="sha256-72OhbBvECs6Z5vG0GfPqiyYvTf8vhdEVHKQcacIcIeM="
+  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/testgame.js"></script>
+  <script src="js/test.js"></script>
+  <% include footer %>
