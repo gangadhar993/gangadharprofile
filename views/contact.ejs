@@ -1,0 +1,81 @@
+<% include header %>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-4 offset-xs-4  col-md-6 offset-md-3">
+              <div class="contact_section">
+                <div class="contactLabel">Contact Me</div>
+                <div class="contactHelp">Got a question? I'd love to hear from you. Send me a message I will respond as soon. </div>
+              <form class="needs-validation form_section" novalidate>
+                  <div class="form-group">
+                    <label for="name">Name </label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your Name" pattern="^[a-zA-Z ]+$" required>
+                    <div class="valid-feedback">
+                       Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please provide a Valid Name
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control " id="email" placeholder="Enter your Email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                       </div>
+                       <div class="invalid-feedback">
+                         Please provide a Valid Email
+                       </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" rows="3" required></textarea >
+                      <div class="valid-feedback">
+                          Looks good!
+                         </div>
+                         <div class="invalid-feedback">
+                           Please provide a Message
+                         </div>
+                    </div>
+                 <div class="button_section"> 
+                    <button type="submit" class="btn btn-primary btnContact">Submit</button>
+                </div>  
+              </form>
+              <div class ="icon_section">
+                  <div class="icn_img_btm">
+                      <a href="https://bitbucket.org/gangadhar993/" title="Bit Bucket">
+                      <img class="img_icon" src="images/bitbucket-logo.png" alt="Smiley face" >
+                      </a>
+                   </div>
+                   <div class="icn_img_btm">
+                      <a href="https://github.com/gangadhar993" title="Github">
+                      <img class="img_icon" src="images/github.png" alt="Smiley face" >
+                      </a>
+                   </div>
+                  <div class="icn_img_btm">
+                     <a href="https://www.facebook.com/naveenadusumalli" title="Facebook">
+                     <img class="img_icon" src="images/fbicon.png" alt="Smiley face" >
+                     </a>
+                  </div>
+                  <div class="icn_img_btm">
+                     <a href="https://www.linkedin.com/in/adusumalli-gangadhar-848165110/" title="LinkedIn">
+                     <img class="img_icon" src="images/linkedin.png" alt="Smiley face" >
+                     </a>
+                  </div>
+                  <div class="icn_img_btm">
+                     <a href="https://twitter.com/naveenadusumili" title="Twitter">
+                     <img class="img_icon" src="images/twitter-logo.png" alt="Smiley face"  >
+                     </a>
+                  </div>
+                  <div class="icn_img_btm">
+                     <a href="https://web.whatsapp.com/" title="Whatsapp">
+                     <img class="img_icon" src="images/whatsapp.png" alt="Smiley face" >
+                     </a>
+                  </div>
+               </div>
+              </div> 
+            </div> 
+          </div>  
+        </div>
+        <script src="js/contact.js"></script>
+  <% include footer %>

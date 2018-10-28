@@ -1,0 +1,52 @@
+<% include header %>
+  <header>
+    <h1 class="game_Header">Tic Tac Toe</h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id = "winner-Status" class="winner_Status"></div>
+        <main class="main_section">
+          <div class="section" id="upper-left"></div>
+          <div class="section" id="upper-mid"> </div>
+          <div class="section" id="upper-right"> </div>
+
+          <div class="section" id="center-left"> </div>
+          <div class="section" id="center-mid"> </div>
+          <div class="section" id="center-right"> </div>
+
+          <div class="section" id="lower-left"> </div>
+          <div class="section" id="lower-mid"> </div>
+          <div class="section" id="lower-right"> </div>
+        </main>
+        <div class="btn_play">
+          <button  class="btn btn-primary btn-play" onclick="play()">Play Again?</button>
+        </div>
+    </div>
+    </div>  
+  </div>  
+  <aside>
+    <h2 class="game_Header">Specification</h2>
+    <div class="section">
+      <ul>
+        <li>Added an algorithm to check for a winner.</li>
+        <li>Added "Play again?" button to clear the board.</li>
+        <li>Improved the computer's selection algorithm.</li>
+        <li>Merged the AddX and AddO functions into a single function.</li>
+      </ul>
+    </div>
+  </aside>
+  <footer>
+    <h4>
+      <span>&copy; Gangadhar 2018</span>
+      <span>&diams;</span>
+      <a href="https://github.com/gangadhar993/Tic-tac-Toe">Source</a>
+      <span>&diams;</span>
+      <a href="https://gangadhar993.github.io/Tic-tac-Toe/">Demo</a>
+    </h4>
+
+  </footer>
+  <script src="js/game.js"></script>
+
+
+  <% include footer %>

@@ -1,0 +1,37 @@
+
+.form_section {
+    width: 86%;
+    margin: auto;
+    margin-top: 29px;
+}
+
+.contact_section {
+    margin-top: 80px;
+}
+
+.contactLabel {
+    text-align: center;
+    font-size: 28px;
+    color: #006747;
+}
+
+.contactHelp {
+    text-align: center;
+    color: grey;
+}
+
+.button_section {
+    text-align: center;
+}
+
+.btnContact {
+    width: 40%;
+    background: #006747;
+}
+
+.btnContact:hover{
+    background:#074430;
+    color:#fff;
+    border:#05271c
+    
+}

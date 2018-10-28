@@ -1,0 +1,92 @@
+* {  
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  display: block;
+}
+
+body {
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header, footer, aside{
+  background-color: rgba(95, 92, 92, 0.075);
+}
+
+main.main_section {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: #fff;
+  color: #444;
+  padding: 1em;
+}
+
+.section {
+  background-color: #006747;
+  color: #fff;
+  border-radius: 0.5em;
+  padding: 2em;
+  margin: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  /* width: 94%; */
+  /* margin: auto; */
+}
+
+ol, ul {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+li {
+   text-align: left;
+   font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  margin-top: 61px;
+}
+.game_Header {
+  background-color: #f8f9fa;
+  color: #006747;
+}
+h2Transparent{
+  color:transparent;
+  font-size:0;
+}
+
+div#winner-Status {
+  width: 30%;
+  margin: auto;
+  color:#006747;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid #006747;
+  border-radius: 4px;
+}
+.section:hover{
+  background:#9C3600;
+  ;
+}
+
+.btn-play {
+  background: #9C3600;
+  width:108px;
+  border: 1px solid #9C3600;
+}
+
+.btn-play:hover{
+  background: #4a2614;
+}
+
+main.main_section {
+  width: 85%;
+  margin: auto;
+}
