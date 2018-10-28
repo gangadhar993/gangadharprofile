@@ -89,9 +89,8 @@ function addMove(cellElement,i){
     throw Error('CellElement and index values are empty');
     
   }
-  if((cellElement == "" && i )||(cellElement != "" && i =="")){
-    return false;
-    
+  if((cellElement == "" && i )||(cellElement != "" && i =="") || (cellElement == null && i )){
+    return false; 
   }
   if(cellElement != "" && i != "" ){
     return true; 

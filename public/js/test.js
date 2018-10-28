@@ -28,10 +28,10 @@
 
 
 
-QUnit.test('Testing addMove function with several sets of inputs', function (assert) {
+QUnit.test('Testing calculateArea function with several sets of inputs', function (assert) {
     assert.equal( addMove(newFunction(), 3), true, 'Tested with one cell element and its index');
     assert.equal( addMove(newFunction_1(), ""), false, 'Tested with only cell element and empty index argument.');
-    assert.equal( addMove("", 5), false, 'Tested with only index and empty cell element argument.');
+    assert.equal( addMove(null, 5), false, 'Tested with only index and null cell element argument.');
     assert.throws(function () { addMove("", ""); }, /CellElement and index values are empty/, 'Passing in a empty values correctly raises an Error');
 });
 
