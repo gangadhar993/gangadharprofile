@@ -61,8 +61,8 @@ app.get("/", function (req, res) {
  
 
  app.get(function (req, res) {
-  res.render("404")
- })
+  res.render('404')
+})
  
  // Listen for an application request on designated port
  app.listen(port, function () {

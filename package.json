@@ -10,8 +10,8 @@
         "morgan": "latest",
         "nodemon": "^1.18.4"
     },
-    "scripts":{
-        "start":"node app.js"
+    "scripts": {
+        "start": "node app.js"
     },
     "author": "Denise Case",
     "homepage": "https://github.com/gangadhar993/gangadharprofile",
