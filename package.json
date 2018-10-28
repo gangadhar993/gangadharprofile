@@ -10,6 +10,9 @@
         "morgan": "latest",
         "nodemon": "^1.18.4"
     },
+    "scripts":{
+        "start":"node app.js"
+    },
     "author": "Denise Case",
     "homepage": "https://bitbucket.org/professorcase/a03",
     "repository": {
