@@ -14,10 +14,10 @@
         "start":"node app.js"
     },
     "author": "Denise Case",
-    "homepage": "https://bitbucket.org/professorcase/a03",
+    "homepage": "https://github.com/gangadhar993/gangadharprofile",
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/professorcase/a03"
+        "url": "https://github.com/gangadhar993/gangadharprofile"
     },
     "license": "Apache-2.0"
 }
