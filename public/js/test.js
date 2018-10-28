@@ -28,7 +28,7 @@
 
 
 
-QUnit.test('Testing calculateArea function with several sets of inputs', function (assert) {
+QUnit.test('Testing addMove function with several sets of inputs', function (assert) {
     assert.equal( addMove(newFunction(), 3), true, 'Tested with one cell element and its index');
     assert.equal( addMove(newFunction_1(), ""), false, 'Tested with only cell element and empty index argument.');
     assert.equal( addMove("", 5), false, 'Tested with only index and empty cell element argument.');
